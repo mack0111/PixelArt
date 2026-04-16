@@ -1,0 +1,6 @@
+@PixelArt_HostAddress = http://localhost:5204
+
+GET {{PixelArt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
