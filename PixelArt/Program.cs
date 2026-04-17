@@ -38,7 +38,7 @@ builder.Services.AddScoped<IWeatherForecastService, WeatherForecastService>();
 
 var allowedOrigins = builder.Configuration
     .GetSection("AllowedOrigins").Get<string[]>()
-    ?? ["http://localhost:5173", "http://localhost:3000", "http://localhost:5204"];
+    ?? ["http://localhost:5173", "http://localhost:3000", "http://localhost:5204", "https://pixelart-ahzv.onrender.com"];
 
 builder.Services.AddCors(options =>
 {
