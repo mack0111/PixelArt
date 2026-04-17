@@ -1,0 +1,18 @@
+# .NET build output
+bin/
+obj/
+
+# Secrets / local config (ห้าม push ขึ้น GitHub เด็ดขาด)
+PixelArt/appsettings.Development.json
+
+# macOS
+.DS_Store
+
+# Rider / VS / VS Code
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Docker
+PixelArt/Dockerfile.override
